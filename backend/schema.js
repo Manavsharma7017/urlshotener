@@ -1,6 +1,6 @@
 const mongoose=require("mongoose");
 const { boolean, string } = require("zod");
-mongoose.connect('mongodb+srv://manav:Manav%400603@cluster0.svddq7z.mongodb.net/urlshotner');
+mongoose.connect('');//mongobd url
 const userschema=new mongoose.Schema({
     username:String,
     passward:String,
